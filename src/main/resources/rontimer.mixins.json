@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.strangesmell.rontimer.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "rontimer.refmap.json",
+  "mixins": [
+    "LivingEntityMixin",
+    "MinecraftServerMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
